@@ -124,7 +124,6 @@ public class SpartaRegistrationPage {
     }
 
     public boolean degreeBorderIsRed(){
-        System.out.println(webDriver.findElement(degree).getCssValue("border-color"));
         return webDriver.findElement(degree).getCssValue("border-color").equals(REDTEXTCOLOURSTRING);
     }
 
